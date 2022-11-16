@@ -11,7 +11,15 @@ def get_version():
 
 def get_other_version():
     import numpy, pandas, matplotlib
-    print(f"this is older version of \n numpy=={numpy.__version__}\npandas=={pandas.__version__}\nmatplotlib=={matplotlib.__version__}")
+    print(f"this is older version of \n "
+          f"numpy=={numpy.__version__}\n"
+          f"pandas=={pandas.__version__}\n"
+          f"matplotlib=={matplotlib.__version__}")
+
+
+def get_yellow_brick_version():
+    import yellowbrick
+    print(f"the version of yellowbrick=={yellowbrick.__version__}")
 
 
 default_args = {
@@ -30,14 +38,18 @@ with DAG(
 ) as dg:
     print_version = PythonOperator(
         task_id="task1",
-        python_callable=get_version,
+        python_callable=get_version
 
     )
     oder_version = PythonOperator(
         task_id="task2",
-        python_callable=get_version,
+        python_callable=get_version
 
     )
 
+    yellow = PythonOperator(
+        task_id="task3",
+        python_callable=get_yellow_brick_version
+    )
 
-print_version >> oder_version
+print_version >> oder_version >> yellow

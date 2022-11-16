@@ -73,3 +73,1675 @@
 [2022-11-15T20:27:51.011+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
 [2022-11-15T20:32:51.074+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
 [2022-11-15T20:32:51.195+0000] {manager.py:727} INFO - There are 0 files in /opt/airflow/dags
+[2022-11-15T21:20:16.001+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-15T21:20:16.008+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-15T21:20:16.012+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-15T21:20:16.015+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:20:16.044+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:20:16.128+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_test_with_python_dependence.py     43  0.03s             0           0
+================================================================================
+[2022-11-15T21:20:46.400+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     44  0.01s             0           1  0.14s           2022-11-15T21:20:16
+================================================================================
+[2022-11-15T21:21:16.814+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     45  0.03s             0           1  0.10s           2022-11-15T21:20:46
+================================================================================
+[2022-11-15T21:21:47.246+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     46  0.03s             0           1  0.12s           2022-11-15T21:21:16
+================================================================================
+[2022-11-15T21:22:18.011+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     47  0.01s             0           1  0.14s           2022-11-15T21:21:47
+================================================================================
+[2022-11-15T21:22:48.348+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     48  0.02s             0           1  0.16s           2022-11-15T21:22:18
+================================================================================
+[2022-11-15T21:23:18.685+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     49  0.01s             0           1  0.13s           2022-11-15T21:22:48
+================================================================================
+[2022-11-15T21:23:49.024+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     50  0.02s             0           1  0.13s           2022-11-15T21:23:18
+================================================================================
+[2022-11-15T21:24:19.432+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     51  0.02s             0           1  0.15s           2022-11-15T21:23:49
+================================================================================
+[2022-11-15T21:24:49.855+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     52  0.01s             0           1  0.15s           2022-11-15T21:24:19
+================================================================================
+[2022-11-15T21:25:16.120+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:25:16.143+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:25:20.250+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     53  0.03s             0           1  0.22s           2022-11-15T21:24:50
+================================================================================
+[2022-11-15T21:25:50.713+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     54  0.03s             0           1  0.14s           2022-11-15T21:25:20
+================================================================================
+[2022-11-15T21:26:21.205+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     55  0.03s             0           1  0.15s           2022-11-15T21:25:50
+================================================================================
+[2022-11-15T21:26:51.692+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     56  0.03s             0           1  0.16s           2022-11-15T21:26:21
+================================================================================
+[2022-11-15T21:27:22.187+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     57  0.03s             0           1  0.13s           2022-11-15T21:26:51
+================================================================================
+[2022-11-15T21:27:52.661+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     58  0.03s             0           1  0.14s           2022-11-15T21:27:22
+================================================================================
+[2022-11-15T21:28:23.083+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     59  0.02s             0           1  0.15s           2022-11-15T21:27:52
+================================================================================
+[2022-11-15T21:28:53.520+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     60  0.02s             0           1  0.12s           2022-11-15T21:28:23
+================================================================================
+[2022-11-15T21:29:23.980+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     61  0.03s             0           1  0.14s           2022-11-15T21:28:53
+================================================================================
+[2022-11-15T21:29:54.392+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     62  0.03s             0           1  0.12s           2022-11-15T21:29:24
+================================================================================
+[2022-11-15T21:30:16.612+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:30:16.630+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:30:24.744+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     63  0.01s             0           1  0.16s           2022-11-15T21:29:54
+================================================================================
+[2022-11-15T21:30:55.097+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     64  0.01s             0           1  0.10s           2022-11-15T21:30:24
+================================================================================
+[2022-11-15T21:31:25.469+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     65  0.01s             0           1  0.07s           2022-11-15T21:30:55
+================================================================================
+[2022-11-15T21:31:55.889+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     66  0.03s             0           1  0.11s           2022-11-15T21:31:25
+================================================================================
+[2022-11-15T21:32:26.253+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     67  0.02s             0           1  0.12s           2022-11-15T21:31:55
+================================================================================
+[2022-11-15T21:32:56.650+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     68  0.03s             0           1  0.13s           2022-11-15T21:32:26
+================================================================================
+[2022-11-15T21:33:27.116+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     69  0.05s             0           1  0.15s           2022-11-15T21:32:56
+================================================================================
+[2022-11-15T21:33:57.492+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     70  0.03s             0           1  0.20s           2022-11-15T21:33:27
+================================================================================
+[2022-11-15T21:34:27.833+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     71  0.02s             0           1  0.13s           2022-11-15T21:33:57
+================================================================================
+[2022-11-15T21:34:58.240+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     72  0.03s             0           1  0.11s           2022-11-15T21:34:27
+================================================================================
+[2022-11-15T21:35:17.456+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:35:17.474+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:35:28.637+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     73  0.02s             0           1  0.13s           2022-11-15T21:34:58
+================================================================================
+[2022-11-15T21:35:58.979+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     74  0.02s             0           1  0.12s           2022-11-15T21:35:28
+================================================================================
+[2022-11-15T21:36:29.434+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     75  0.02s             0           1  0.12s           2022-11-15T21:35:59
+================================================================================
+[2022-11-15T21:37:00.043+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     76  0.04s             0           1  0.21s           2022-11-15T21:36:29
+================================================================================
+[2022-11-15T21:37:30.532+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     77  0.03s             0           1  0.18s           2022-11-15T21:37:00
+================================================================================
+[2022-11-15T21:38:01.066+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     78  0.06s             0           1  0.12s           2022-11-15T21:37:30
+================================================================================
+[2022-11-15T21:38:31.888+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     79  0.04s             0           1  0.58s           2022-11-15T21:38:01
+================================================================================
+[2022-11-15T21:39:02.716+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py     80  0.07s             0           1  0.45s           2022-11-15T21:38:32
+================================================================================
+[2022-11-15T21:39:33.455+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.12s           2022-11-15T21:39:03
+================================================================================
+[2022-11-15T21:40:03.870+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.15s           2022-11-15T21:39:34
+================================================================================
+[2022-11-15T21:40:18.067+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:40:18.091+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:40:34.365+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.12s           2022-11-15T21:40:05
+================================================================================
+[2022-11-15T21:41:04.698+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.10s           2022-11-15T21:40:35
+================================================================================
+[2022-11-15T21:41:35.043+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.09s           2022-11-15T21:41:05
+================================================================================
+[2022-11-15T21:42:05.478+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.09s           2022-11-15T21:41:36
+================================================================================
+[2022-11-15T21:42:35.884+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.11s           2022-11-15T21:42:06
+================================================================================
+[2022-11-15T21:43:06.746+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.14s           2022-11-15T21:42:37
+================================================================================
+[2022-11-15T21:43:37.308+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.18s           2022-11-15T21:43:07
+================================================================================
+[2022-11-15T21:44:07.789+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.13s           2022-11-15T21:43:38
+================================================================================
+[2022-11-15T21:44:38.217+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.12s           2022-11-15T21:44:08
+================================================================================
+[2022-11-15T21:45:08.666+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  1.30s           2022-11-15T21:44:50
+================================================================================
+[2022-11-15T21:45:18.774+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:45:18.793+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:45:39.230+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.28s           2022-11-15T21:45:21
+================================================================================
+[2022-11-15T21:46:09.693+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T21:45:51
+================================================================================
+[2022-11-15T21:46:40.205+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T21:46:22
+================================================================================
+[2022-11-15T21:47:10.618+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T21:46:52
+================================================================================
+[2022-11-15T21:47:41.072+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:47:22
+================================================================================
+[2022-11-15T21:48:11.491+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:47:53
+================================================================================
+[2022-11-15T21:48:41.937+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T21:48:23
+================================================================================
+[2022-11-15T21:48:43.983+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:44.049+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:45.005+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:45.064+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:46.029+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:46.078+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:47.063+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:47.093+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:48.086+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:48.104+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:49.111+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:49.125+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:50.125+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:50.135+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:51.149+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:51.163+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:52.178+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:52.194+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:53.193+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:53.203+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:54.218+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:54.233+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:55.233+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:55.242+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:56.253+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:56.267+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:57.280+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:57.292+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:58.297+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:58.305+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:59.310+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:48:59.321+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:00.330+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:00.339+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:01.353+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:01.368+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:02.371+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:02.387+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:03.391+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:03.403+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:04.404+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:04.412+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:05.424+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:05.437+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:06.444+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:06.453+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:07.459+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:07.473+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:08.480+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:08.488+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:09.491+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:09.498+0000] {manager.py:1066} WARNING - Skipping processing of missing file: /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-15T21:49:12.556+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:49:10
+================================================================================
+[2022-11-15T21:49:43.020+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T21:49:41
+================================================================================
+[2022-11-15T21:50:13.370+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T21:50:11
+================================================================================
+[2022-11-15T21:50:19.449+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:50:19.493+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:50:43.839+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T21:50:42
+================================================================================
+[2022-11-15T21:51:14.386+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T21:51:12
+================================================================================
+[2022-11-15T21:51:44.777+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T21:51:42
+================================================================================
+[2022-11-15T21:52:15.255+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T21:52:13
+================================================================================
+[2022-11-15T21:52:45.640+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T21:52:43
+================================================================================
+[2022-11-15T21:53:15.933+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:53:14
+================================================================================
+[2022-11-15T21:53:46.468+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.55s           2022-11-15T21:53:25
+================================================================================
+[2022-11-15T21:54:17.130+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T21:53:56
+================================================================================
+[2022-11-15T21:54:47.510+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:54:26
+================================================================================
+[2022-11-15T21:55:17.978+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T21:54:56
+================================================================================
+[2022-11-15T21:55:20.017+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T21:55:20.061+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T21:55:48.460+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T21:55:27
+================================================================================
+[2022-11-15T21:56:18.896+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T21:55:57
+================================================================================
+[2022-11-15T21:56:49.280+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T21:56:28
+================================================================================
+[2022-11-15T21:57:19.771+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:56:58
+================================================================================
+[2022-11-15T21:57:50.158+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T21:57:29
+================================================================================
+[2022-11-15T21:58:20.665+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T21:57:59
+================================================================================
+[2022-11-15T21:58:51.185+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T21:58:30
+================================================================================
+[2022-11-15T21:59:21.672+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.30s           2022-11-15T21:59:00
+================================================================================
+[2022-11-15T21:59:52.146+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T21:59:30
+================================================================================
+[2022-11-15T22:00:20.453+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:00:20.500+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:00:22.545+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:00:01
+================================================================================
+[2022-11-15T22:00:52.928+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:00:31
+================================================================================
+[2022-11-15T22:01:23.329+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:01:02
+================================================================================
+[2022-11-15T22:01:53.757+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:01:32
+================================================================================
+[2022-11-15T22:02:24.200+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.33s           2022-11-15T22:02:03
+================================================================================
+[2022-11-15T22:02:54.727+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:02:33
+================================================================================
+[2022-11-15T22:03:25.129+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:03:04
+================================================================================
+[2022-11-15T22:03:55.595+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.33s           2022-11-15T22:03:34
+================================================================================
+[2022-11-15T22:04:26.107+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:04:04
+================================================================================
+[2022-11-15T22:04:56.510+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:04:35
+================================================================================
+[2022-11-15T22:05:20.849+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:05:20.951+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:05:27.189+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T22:05:05
+================================================================================
+[2022-11-15T22:05:57.614+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:05:36
+================================================================================
+[2022-11-15T22:06:28.097+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:06:06
+================================================================================
+[2022-11-15T22:06:58.543+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:06:37
+================================================================================
+[2022-11-15T22:07:29.037+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T22:07:07
+================================================================================
+[2022-11-15T22:07:59.438+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:07:38
+================================================================================
+[2022-11-15T22:08:29.880+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:08:08
+================================================================================
+[2022-11-15T22:09:00.238+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:08:39
+================================================================================
+[2022-11-15T22:09:30.607+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:09:09
+================================================================================
+[2022-11-15T22:10:01.160+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:09:39
+================================================================================
+[2022-11-15T22:10:21.431+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:10:21.459+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:10:31.573+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.33s           2022-11-15T22:10:10
+================================================================================
+[2022-11-15T22:11:02.149+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T22:10:40
+================================================================================
+[2022-11-15T22:11:32.569+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T22:11:11
+================================================================================
+[2022-11-15T22:12:02.948+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:11:41
+================================================================================
+[2022-11-15T22:12:33.330+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T22:12:12
+================================================================================
+[2022-11-15T22:13:03.767+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T22:12:42
+================================================================================
+[2022-11-15T22:13:34.186+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:13:13
+================================================================================
+[2022-11-15T22:14:04.521+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:13:43
+================================================================================
+[2022-11-15T22:14:34.989+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:14:13
+================================================================================
+[2022-11-15T22:15:05.329+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:14:44
+================================================================================
+[2022-11-15T22:15:21.629+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:15:21.653+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:15:35.828+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T22:15:14
+================================================================================
+[2022-11-15T22:16:06.234+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:15:45
+================================================================================
+[2022-11-15T22:16:36.741+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:16:15
+================================================================================
+[2022-11-15T22:17:07.162+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T22:16:46
+================================================================================
+[2022-11-15T22:17:37.675+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:17:16
+================================================================================
+[2022-11-15T22:18:08.019+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:17:47
+================================================================================
+[2022-11-15T22:18:38.440+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:18:17
+================================================================================
+[2022-11-15T22:19:08.767+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:18:47
+================================================================================
+[2022-11-15T22:19:39.256+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:19:18
+================================================================================
+[2022-11-15T22:20:09.590+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:19:48
+================================================================================
+[2022-11-15T22:20:21.868+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:20:21.897+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:20:40.160+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:20:18
+================================================================================
+[2022-11-15T22:21:10.532+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.32s           2022-11-15T22:20:49
+================================================================================
+[2022-11-15T22:21:40.933+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:21:19
+================================================================================
+[2022-11-15T22:22:11.441+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:21:50
+================================================================================
+[2022-11-15T22:22:41.891+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.25s           2022-11-15T22:22:20
+================================================================================
+[2022-11-15T22:23:12.419+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.26s           2022-11-15T22:22:51
+================================================================================
+[2022-11-15T22:23:42.828+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:23:21
+================================================================================
+[2022-11-15T22:24:13.407+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:23:52
+================================================================================
+[2022-11-15T22:24:43.803+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:24:22
+================================================================================
+[2022-11-15T22:25:14.304+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:24:53
+================================================================================
+[2022-11-15T22:25:22.412+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:25:22.430+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:25:44.699+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:25:23
+================================================================================
+[2022-11-15T22:26:15.197+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:25:54
+================================================================================
+[2022-11-15T22:26:45.562+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:26:24
+================================================================================
+[2022-11-15T22:27:16.014+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:26:54
+================================================================================
+[2022-11-15T22:27:46.430+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:27:25
+================================================================================
+[2022-11-15T22:28:16.894+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:27:55
+================================================================================
+[2022-11-15T22:28:47.326+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.18s           2022-11-15T22:28:26
+================================================================================
+[2022-11-15T22:29:17.676+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:28:56
+================================================================================
+[2022-11-15T22:29:48.088+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:29:27
+================================================================================
+[2022-11-15T22:30:18.626+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.15s           2022-11-15T22:29:57
+================================================================================
+[2022-11-15T22:30:22.685+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:30:22.715+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:30:49.106+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T22:30:28
+================================================================================
+[2022-11-15T22:31:19.606+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.30s           2022-11-15T22:30:58
+================================================================================
+[2022-11-15T22:31:49.965+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:31:28
+================================================================================
+[2022-11-15T22:32:20.405+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:31:59
+================================================================================
+[2022-11-15T22:32:50.774+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:32:29
+================================================================================
+[2022-11-15T22:33:21.225+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T22:33:00
+================================================================================
+[2022-11-15T22:33:51.576+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:33:30
+================================================================================
+[2022-11-15T22:34:21.994+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:34:00
+================================================================================
+[2022-11-15T22:34:52.433+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:34:31
+================================================================================
+[2022-11-15T22:35:22.844+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:35:22.879+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:35:22.899+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:35:01
+================================================================================
+[2022-11-15T22:35:53.373+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:35:32
+================================================================================
+[2022-11-15T22:36:23.881+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:36:02
+================================================================================
+[2022-11-15T22:36:54.323+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:36:33
+================================================================================
+[2022-11-15T22:37:24.808+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.22s           2022-11-15T22:37:03
+================================================================================
+[2022-11-15T22:37:55.249+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.23s           2022-11-15T22:37:34
+================================================================================
+[2022-11-15T22:38:25.762+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:38:04
+================================================================================
+[2022-11-15T22:38:56.186+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T22:38:35
+================================================================================
+[2022-11-15T22:39:26.539+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-15T22:39:05
+================================================================================
+[2022-11-15T22:39:56.995+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:39:35
+================================================================================
+[2022-11-15T22:40:23.259+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:40:23.281+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:40:27.343+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.14s           2022-11-15T22:40:06
+================================================================================
+[2022-11-15T22:40:57.658+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.19s           2022-11-15T22:40:36
+================================================================================
+[2022-11-15T22:52:29.974+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-15T22:52:29.997+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-15T22:52:30.248+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:52:30
+================================================================================
+[2022-11-15T22:53:00.662+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py    205  0.04s             1           0  0.20s           2022-11-15T22:52:30
+================================================================================
+[2022-11-15T22:53:31.007+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py    206  0.03s             1           0  0.24s           2022-11-15T22:53:00
+================================================================================
+[2022-11-15T22:54:01.412+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py    207  0.03s             1           0  0.24s           2022-11-15T22:53:31
+================================================================================
+[2022-11-15T22:54:31.768+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py    208  0.04s             1           0  0.21s           2022-11-15T22:54:01
+================================================================================
+[2022-11-15T22:55:02.161+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py    209  0.02s             1           0  0.25s           2022-11-15T22:54:31
+================================================================================
+[2022-11-15T22:55:32.227+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-15T22:55:02
+================================================================================
+[2022-11-15T22:56:05.539+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.24s           2022-11-15T22:56:03
+================================================================================
+[2022-11-15T22:56:35.968+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.21s           2022-11-15T22:56:34
+================================================================================
+[2022-11-16T09:20:42.053+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-16T09:20:42.068+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-16T09:20:42.071+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-16T09:20:42.075+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-16T09:20:42.109+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-16T09:20:47.329+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.32s           2022-11-16T09:20:42
+================================================================================
+[2022-11-16T09:21:17.579+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.10s           2022-11-16T09:21:12
+================================================================================
+[2022-11-16T09:21:42.740+0000] {manager.py:520} INFO - DAG python_dependences is missing and will be deactivated.
+[2022-11-16T09:21:42.758+0000] {manager.py:530} INFO - Deactivated 1 DAGs which are no longer present in file.
+[2022-11-16T09:21:42.766+0000] {manager.py:534} INFO - Deleted DAG python_dependences in serialized_dag table
+[2022-11-16T09:21:47.828+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.11s           2022-11-16T09:21:42
+================================================================================
+[2022-11-16T09:22:18.073+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  0.09s           2022-11-16T09:22:13
+================================================================================
+[2022-11-16T09:22:24.724+0000] {manager.py:465} INFO - Exiting gracefully upon receiving signal 15
+[2022-11-16T09:22:35.370+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-16T09:22:35.373+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-16T09:22:35.375+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-16T09:22:35.378+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-16T09:22:35.388+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-16T09:22:35.448+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_test_with_python_dependence.py     33  0.02s             0           0
+================================================================================
+[2022-11-16T09:23:05.489+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.85s           2022-11-16T09:22:37
+================================================================================
+[2022-11-16T09:23:35.788+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.52s           2022-11-16T09:23:09
+================================================================================
+[2022-11-16T09:24:06.025+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.61s           2022-11-16T09:23:40
+================================================================================
+[2022-11-16T09:24:36.287+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.76s           2022-11-16T09:24:12
+================================================================================
+[2022-11-16T09:25:06.513+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.36s           2022-11-16T09:24:44
+================================================================================
+[2022-11-16T09:25:36.746+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.52s           2022-11-16T09:25:16
+================================================================================
+[2022-11-16T09:26:06.778+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.32s           2022-11-16T09:25:47
+================================================================================
+[2022-11-16T09:26:37.062+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.55s           2022-11-16T09:26:19
+================================================================================
+[2022-11-16T09:27:07.783+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  2.11s           2022-11-16T09:26:51
+================================================================================
+[2022-11-16T09:27:35.989+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-16T09:27:36.012+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-16T09:27:38.039+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.39s           2022-11-16T09:27:23
+================================================================================
+[2022-11-16T09:28:08.319+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  2.00s           2022-11-16T09:27:55
+================================================================================
+[2022-11-16T09:28:38.744+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.32s           2022-11-16T09:28:26
+================================================================================
+[2022-11-16T09:29:08.961+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  2.00s           2022-11-16T09:28:58
+================================================================================
+[2022-11-16T09:29:39.221+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.30s           2022-11-16T09:29:30
+================================================================================
+[2022-11-16T09:32:50.426+0000] {manager.py:483} INFO - Processing files using up to 2 processes at a time 
+[2022-11-16T09:32:50.446+0000] {manager.py:484} INFO - Process each file at most once every 30 seconds
+[2022-11-16T09:32:50.453+0000] {manager.py:486} INFO - Checking for new files in /opt/airflow/dags every 300 seconds
+[2022-11-16T09:32:50.461+0000] {manager.py:724} INFO - Searching for files in /opt/airflow/dags
+[2022-11-16T09:32:50.488+0000] {manager.py:727} INFO - There are 1 files in /opt/airflow/dags
+[2022-11-16T09:32:50.772+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                               PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/opt/airflow/dags/dag_test_with_python_dependence.py     33  0.11s             0           0
+================================================================================
+[2022-11-16T09:33:20.867+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  7.38s           2022-11-16T09:33:17
+================================================================================
+[2022-11-16T09:33:51.101+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           0           1  1.85s           2022-11-16T09:33:50
+================================================================================
+[2022-11-16T09:34:21.601+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  1.57s           2022-11-16T09:34:02
+================================================================================
+[2022-11-16T09:34:52.414+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.27s           2022-11-16T09:34:33
+================================================================================
+[2022-11-16T09:35:22.932+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.42s           2022-11-16T09:34:57
+================================================================================
+[2022-11-16T09:35:53.445+0000] {manager.py:846} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                             PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+----------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/dag_test_with_python_dependence.py                           1           0  0.20s           2022-11-16T09:35:28
+================================================================================

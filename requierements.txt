@@ -3,3 +3,5 @@ matplotlib
 numpy
 pandas
 matplotlib
+yellowbrick
+category_encoders
