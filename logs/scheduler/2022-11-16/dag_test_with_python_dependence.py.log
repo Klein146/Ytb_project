@@ -454,3 +454,10 @@ airflow.exceptions.AirflowException: `python_callable` param must be callable
 [2022-11-16T09:35:58.730+0000] {logging_mixin.py:120} INFO - [2022-11-16T09:35:58.730+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-16T09:35:58.769+0000] {logging_mixin.py:120} INFO - [2022-11-16T09:35:58.769+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
 [2022-11-16T09:35:58.789+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.202 seconds
+[2022-11-16T09:48:23.923+0000] {processor.py:154} INFO - Started process (PID=67) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-16T09:48:23.926+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-16T09:48:23.927+0000] {logging_mixin.py:120} INFO - [2022-11-16T09:48:23.927+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-16T09:48:23.988+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-16T09:48:24.090+0000] {logging_mixin.py:120} INFO - [2022-11-16T09:48:24.090+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-16T09:48:24.118+0000] {logging_mixin.py:120} INFO - [2022-11-16T09:48:24.118+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-16T00:00:00+00:00, run_after=2022-11-17T00:00:00+00:00
+[2022-11-16T09:48:24.147+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.231 seconds
