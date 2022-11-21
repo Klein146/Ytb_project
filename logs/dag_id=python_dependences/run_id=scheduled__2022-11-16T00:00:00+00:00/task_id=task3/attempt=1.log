@@ -1,0 +1,39 @@
+[2022-11-20T07:00:14.671+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_dependences.task3 scheduled__2022-11-16T00:00:00+00:00 [queued]>
+[2022-11-20T07:00:14.808+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_dependences.task3 scheduled__2022-11-16T00:00:00+00:00 [queued]>
+[2022-11-20T07:00:14.828+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-20T07:00:14.834+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-20T07:00:14.840+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-20T07:00:15.349+0000] {local_task_job.py:87} ERROR - Received SIGTERM. Terminating subprocesses
+[2022-11-20T07:00:15.404+0000] {local_task_job.py:164} INFO - Task exited with return code 143
+[2022-11-20T07:00:20.787+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-11-21T10:40:35.649+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_dependences.task3 scheduled__2022-11-16T00:00:00+00:00 [queued]>
+[2022-11-21T10:40:35.745+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python_dependences.task3 scheduled__2022-11-16T00:00:00+00:00 [queued]>
+[2022-11-21T10:40:35.749+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-21T10:40:35.750+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-21T10:40:35.753+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-21T10:40:35.916+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): task3> on 2022-11-16 00:00:00+00:00
+[2022-11-21T10:40:36.001+0000] {standard_task_runner.py:55} INFO - Started process 54 to run task
+[2022-11-21T10:40:36.261+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'python_dependences', 'task3', 'scheduled__2022-11-16T00:00:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_with_python_dependence.py', '--cfg-path', '/tmp/tmp6jtfh8vg']
+[2022-11-21T10:40:36.334+0000] {standard_task_runner.py:83} INFO - Job 24: Subtask task3
+[2022-11-21T10:40:37.078+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-11-21T10:40:57.586+0000] {task_command.py:376} INFO - Running <TaskInstance: python_dependences.task3 scheduled__2022-11-16T00:00:00+00:00 [running]> on host f05724efbbd1
+[2022-11-21T10:40:58.737+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=klein
+AIRFLOW_CTX_DAG_ID=python_dependences
+AIRFLOW_CTX_TASK_ID=task3
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-16T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-16T00:00:00+00:00
+[2022-11-21T10:41:08.747+0000] {__init__.py:492} WARNING - Matplotlib created a temporary config/cache directory at /tmp/matplotlib-j_e5uag8 because the default path (/home/airflow/.cache/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+[2022-11-21T10:41:12.049+0000] {font_manager.py:1443} INFO - generated new fontManager
+[2022-11-21T10:41:34.478+0000] {logging_mixin.py:120} INFO - the version of yellowbrick==1.5
+[2022-11-21T10:41:34.515+0000] {python.py:177} INFO - Done. Returned value was: None
+[2022-11-21T10:41:34.789+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=python_dependences, task_id=task3, execution_date=20221116T000000, start_date=20221121T104035, end_date=20221121T104134
+[2022-11-21T10:41:36.199+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-21T10:41:36.375+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
