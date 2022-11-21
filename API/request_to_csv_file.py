@@ -12,7 +12,7 @@ csv_writer = csv.writer(data_file)
 
 # Counter variable used for writing
 # headers to the CSV file
-count = 0
+
 result = []
 for items in data['items']:
 
