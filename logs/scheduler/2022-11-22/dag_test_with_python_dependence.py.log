@@ -1,0 +1,284 @@
+[2022-11-22T14:57:55.131+0000] {processor.py:154} INFO - Started process (PID=32) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:57:55.148+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T14:57:55.162+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:57:55.162+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:57:55.398+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:57:55.580+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:57:55.580+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T14:57:55.708+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:57:55.707+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T14:57:55.800+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.714 seconds
+[2022-11-22T14:58:26.614+0000] {processor.py:154} INFO - Started process (PID=33) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:58:26.617+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T14:58:26.619+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:58:26.619+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:58:26.748+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:58:26.889+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:58:26.889+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T14:58:26.962+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:58:26.962+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T14:58:26.991+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.381 seconds
+[2022-11-22T14:58:57.357+0000] {processor.py:154} INFO - Started process (PID=34) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:58:57.362+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T14:58:57.364+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:58:57.364+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:58:57.423+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:58:57.489+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:58:57.489+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T14:58:57.526+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:58:57.526+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T14:58:57.545+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.192 seconds
+[2022-11-22T14:59:27.827+0000] {processor.py:154} INFO - Started process (PID=35) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:59:27.840+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T14:59:27.853+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:59:27.853+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:59:27.929+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:59:28.007+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:59:28.007+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T14:59:28.046+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:59:28.046+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T14:59:28.075+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.256 seconds
+[2022-11-22T14:59:58.294+0000] {processor.py:154} INFO - Started process (PID=36) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:59:58.297+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T14:59:58.299+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:59:58.299+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:59:58.347+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python_dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T14:59:58.429+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:59:58.429+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T14:59:58.465+0000] {logging_mixin.py:120} INFO - [2022-11-22T14:59:58.464+0000] {dag.py:3340} INFO - Setting next_dagrun for python_dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T14:59:58.484+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.195 seconds
+[2022-11-22T15:00:21.835+0000] {processor.py:154} INFO - Started process (PID=37) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:00:21.841+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:00:21.846+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:21.846+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:00:21.931+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:00:22.188+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:22.188+0000] {manager.py:507} INFO - Created Permission View: can read on DAG:python__dependences
+[2022-11-22T15:00:22.199+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:22.198+0000] {manager.py:507} INFO - Created Permission View: can delete on DAG:python__dependences
+[2022-11-22T15:00:22.205+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:22.205+0000] {manager.py:507} INFO - Created Permission View: can edit on DAG:python__dependences
+[2022-11-22T15:00:22.206+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:22.206+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:00:22.219+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:22.219+0000] {dag.py:2606} INFO - Creating ORM DAG for python__dependences
+[2022-11-22T15:00:22.232+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:22.232+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:00:22.250+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.427 seconds
+[2022-11-22T15:00:52.602+0000] {processor.py:154} INFO - Started process (PID=38) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:00:52.605+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:00:52.607+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:52.607+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:00:52.646+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:00:52.719+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:52.719+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:00:52.756+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:00:52.756+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:00:52.780+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.183 seconds
+[2022-11-22T15:01:22.929+0000] {processor.py:154} INFO - Started process (PID=39) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:01:22.932+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:01:22.934+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:01:22.934+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:01:22.980+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:01:23.050+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:01:23.050+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:01:23.087+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:01:23.086+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:01:23.105+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.181 seconds
+[2022-11-22T15:01:53.446+0000] {processor.py:154} INFO - Started process (PID=40) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:01:53.449+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:01:53.451+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:01:53.451+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:01:53.487+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:01:53.553+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:01:53.553+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:01:53.581+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:01:53.581+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:01:53.598+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.157 seconds
+[2022-11-22T15:02:23.850+0000] {processor.py:154} INFO - Started process (PID=41) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:02:23.854+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:02:23.857+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:02:23.857+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:02:23.906+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:02:23.974+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:02:23.974+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:02:24.014+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:02:24.014+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:02:24.040+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.195 seconds
+[2022-11-22T15:02:54.367+0000] {processor.py:154} INFO - Started process (PID=42) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:02:54.375+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:02:54.386+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:02:54.385+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:02:54.514+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:02:54.627+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:02:54.626+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:02:54.660+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:02:54.660+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:02:54.681+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.328 seconds
+[2022-11-22T15:03:24.832+0000] {processor.py:154} INFO - Started process (PID=43) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:03:24.835+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:03:24.837+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:03:24.837+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:03:24.882+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:03:24.957+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:03:24.956+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:03:24.985+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:03:24.985+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:03:25.008+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.180 seconds
+[2022-11-22T15:03:55.464+0000] {processor.py:154} INFO - Started process (PID=44) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:03:55.467+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:03:55.469+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:03:55.469+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:03:55.518+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:03:55.593+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:03:55.593+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:03:55.629+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:03:55.629+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:03:55.651+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.192 seconds
+[2022-11-22T15:04:25.953+0000] {processor.py:154} INFO - Started process (PID=45) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:04:25.957+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:04:25.959+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:04:25.959+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:04:26.013+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:04:26.097+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:04:26.097+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:04:26.136+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:04:26.136+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:04:26.157+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.210 seconds
+[2022-11-22T15:04:56.471+0000] {processor.py:154} INFO - Started process (PID=46) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:04:56.476+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:04:56.483+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:04:56.483+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:04:56.540+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:04:56.676+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:04:56.676+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:04:56.731+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:04:56.731+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:04:56.753+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.289 seconds
+[2022-11-22T15:05:26.870+0000] {processor.py:154} INFO - Started process (PID=47) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:05:26.874+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:05:26.876+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:05:26.876+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:05:26.915+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:05:26.974+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:05:26.973+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:05:27.007+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:05:27.007+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:05:27.026+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.161 seconds
+[2022-11-22T15:05:57.307+0000] {processor.py:154} INFO - Started process (PID=48) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:05:57.311+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:05:57.313+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:05:57.313+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:05:57.367+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:05:57.436+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:05:57.436+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:05:57.466+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:05:57.465+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:05:57.487+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.188 seconds
+[2022-11-22T15:06:27.703+0000] {processor.py:154} INFO - Started process (PID=49) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:06:27.707+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:06:27.709+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:06:27.709+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:06:27.752+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:06:27.827+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:06:27.827+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:06:27.855+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:06:27.855+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:06:27.872+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.174 seconds
+[2022-11-22T15:06:58.296+0000] {processor.py:154} INFO - Started process (PID=50) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:06:58.303+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:06:58.307+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:06:58.307+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:06:58.351+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:06:58.439+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:06:58.439+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:06:58.473+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:06:58.472+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:06:58.495+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.207 seconds
+[2022-11-22T15:07:28.640+0000] {processor.py:154} INFO - Started process (PID=51) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:07:28.643+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:07:28.645+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:07:28.645+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:07:28.684+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:07:28.753+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:07:28.753+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:07:28.791+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:07:28.791+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:07:28.812+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.181 seconds
+[2022-11-22T15:07:59.030+0000] {processor.py:154} INFO - Started process (PID=52) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:07:59.032+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:07:59.034+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:07:59.034+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:07:59.080+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:07:59.145+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:07:59.145+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:07:59.174+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:07:59.174+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:07:59.198+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.174 seconds
+[2022-11-22T15:08:29.575+0000] {processor.py:154} INFO - Started process (PID=53) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:08:29.579+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:08:29.581+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:08:29.581+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:08:29.624+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:08:29.718+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:08:29.718+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:08:29.781+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:08:29.781+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:08:29.849+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.279 seconds
+[2022-11-22T15:08:59.921+0000] {processor.py:154} INFO - Started process (PID=54) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:08:59.923+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:08:59.925+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:08:59.925+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:08:59.960+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:09:00.054+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:09:00.054+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:09:00.100+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:09:00.099+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:09:00.127+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.211 seconds
+[2022-11-22T15:09:30.359+0000] {processor.py:154} INFO - Started process (PID=55) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:09:30.362+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:09:30.363+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:09:30.363+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:09:30.406+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:09:30.471+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:09:30.471+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:09:30.503+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:09:30.502+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:09:30.520+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.166 seconds
+[2022-11-22T15:10:00.817+0000] {processor.py:154} INFO - Started process (PID=56) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:10:00.820+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:10:00.822+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:10:00.822+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:10:00.867+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:10:00.941+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:10:00.941+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:10:00.978+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:10:00.977+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:10:00.998+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.186 seconds
+[2022-11-22T15:10:31.219+0000] {processor.py:154} INFO - Started process (PID=57) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:10:31.224+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:10:31.234+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:10:31.234+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:10:31.315+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:10:31.383+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:10:31.382+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:10:31.420+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:10:31.419+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:10:31.439+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.227 seconds
+[2022-11-22T15:11:01.739+0000] {processor.py:154} INFO - Started process (PID=58) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:11:01.743+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:11:01.745+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:11:01.745+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:11:01.808+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:11:01.911+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:11:01.910+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:11:01.986+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:11:01.985+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:11:02.028+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.295 seconds
+[2022-11-22T15:11:32.139+0000] {processor.py:154} INFO - Started process (PID=59) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:11:32.142+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:11:32.145+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:11:32.144+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:11:32.187+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:11:32.261+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:11:32.260+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:11:32.296+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:11:32.296+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:11:32.323+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.190 seconds
+[2022-11-22T15:12:02.724+0000] {processor.py:154} INFO - Started process (PID=60) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:12:02.728+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:12:02.730+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:12:02.730+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:12:02.775+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:12:02.847+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:12:02.847+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:12:02.885+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:12:02.885+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:12:02.909+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.191 seconds
+[2022-11-22T15:12:33.097+0000] {processor.py:154} INFO - Started process (PID=61) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:12:33.101+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:12:33.103+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:12:33.103+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:12:33.149+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:12:33.223+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:12:33.223+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:12:33.266+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:12:33.265+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:12:33.293+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.202 seconds
+[2022-11-22T15:13:03.637+0000] {processor.py:154} INFO - Started process (PID=62) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:13:03.640+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:13:03.642+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:13:03.642+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:13:03.694+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:13:03.770+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:13:03.770+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:13:03.816+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:13:03.816+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:13:03.853+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.224 seconds
+[2022-11-22T15:13:34.034+0000] {processor.py:154} INFO - Started process (PID=63) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:13:34.038+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:13:34.040+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:13:34.040+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:13:34.108+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:13:34.188+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:13:34.188+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:13:34.220+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:13:34.220+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:13:34.239+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.211 seconds
+[2022-11-22T15:16:59.063+0000] {processor.py:154} INFO - Started process (PID=83) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:16:59.066+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:16:59.071+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:16:59.070+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:16:59.120+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:16:59.165+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:16:59.164+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:16:59.211+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:16:59.210+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:16:59.243+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.185 seconds
+[2022-11-22T15:17:29.525+0000] {processor.py:154} INFO - Started process (PID=84) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:17:29.533+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:17:29.540+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:17:29.539+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:17:29.697+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:17:29.840+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:17:29.839+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:17:30.008+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:17:30.008+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:17:30.065+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.558 seconds
+[2022-11-22T15:18:00.664+0000] {processor.py:154} INFO - Started process (PID=85) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:18:00.668+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:18:00.671+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:18:00.671+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:18:00.764+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:18:00.869+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:18:00.869+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:18:00.923+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:18:00.922+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:18:00.947+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.289 seconds
+[2022-11-22T15:18:31.029+0000] {processor.py:154} INFO - Started process (PID=86) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:18:31.031+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:18:31.033+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:18:31.032+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:18:31.070+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:18:31.133+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:18:31.132+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:18:31.175+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:18:31.175+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:18:31.197+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.172 seconds
+[2022-11-22T15:19:01.685+0000] {processor.py:154} INFO - Started process (PID=87) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:19:01.689+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:19:01.692+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:19:01.691+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:19:01.738+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:19:01.797+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:19:01.796+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:19:01.835+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:19:01.834+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:19:01.864+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.183 seconds
+[2022-11-22T15:19:31.998+0000] {processor.py:154} INFO - Started process (PID=88) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:19:32.001+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:19:32.003+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:19:32.003+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:19:32.039+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:19:32.100+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:19:32.100+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:19:32.130+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:19:32.129+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:19:32.148+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.154 seconds
+[2022-11-22T15:20:02.302+0000] {processor.py:154} INFO - Started process (PID=89) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:20:02.309+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:20:02.312+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:20:02.311+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:20:02.359+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:20:02.422+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:20:02.422+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:20:02.452+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:20:02.452+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:20:02.469+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.172 seconds
+[2022-11-22T15:20:32.761+0000] {processor.py:154} INFO - Started process (PID=90) to work on /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:20:32.763+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/dag_test_with_python_dependence.py for tasks to queue
+[2022-11-22T15:20:32.765+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:20:32.765+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:20:32.806+0000] {processor.py:766} INFO - DAG(s) dict_keys(['python__dependences']) retrieved from /opt/airflow/dags/dag_test_with_python_dependence.py
+[2022-11-22T15:20:32.888+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:20:32.887+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-22T15:20:32.938+0000] {logging_mixin.py:120} INFO - [2022-11-22T15:20:32.937+0000] {dag.py:3340} INFO - Setting next_dagrun for python__dependences to 2022-11-22T00:00:00+00:00, run_after=2022-11-23T00:00:00+00:00
+[2022-11-22T15:20:32.958+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/dag_test_with_python_dependence.py took 0.201 seconds

@@ -1,0 +1,32 @@
+[2022-11-22T15:03:41.108+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python__dependences.task1 manual__2022-11-22T15:02:39.226007+00:00 [queued]>
+[2022-11-22T15:03:41.124+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: python__dependences.task1 manual__2022-11-22T15:02:39.226007+00:00 [queued]>
+[2022-11-22T15:03:41.125+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-22T15:03:41.128+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 3
+[2022-11-22T15:03:41.132+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-22T15:03:41.147+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): task1> on 2022-11-22 15:02:39.226007+00:00
+[2022-11-22T15:03:41.155+0000] {standard_task_runner.py:55} INFO - Started process 54 to run task
+[2022-11-22T15:03:41.164+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'python__dependences', 'task1', 'manual__2022-11-22T15:02:39.226007+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/dag_test_with_python_dependence.py', '--cfg-path', '/tmp/tmpa3esd1he']
+[2022-11-22T15:03:41.166+0000] {standard_task_runner.py:83} INFO - Job 21: Subtask task1
+[2022-11-22T15:03:41.235+0000] {task_command.py:376} INFO - Running <TaskInstance: python__dependences.task1 manual__2022-11-22T15:02:39.226007+00:00 [running]> on host 10ff3b602703
+[2022-11-22T15:03:41.309+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=klein
+AIRFLOW_CTX_DAG_ID=python__dependences
+AIRFLOW_CTX_TASK_ID=task1
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-22T15:02:39.226007+00:00
+AIRFLOW_CTX_TRY_NUMBER=2
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-22T15:02:39.226007+00:00
+[2022-11-22T15:03:41.313+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/dag_test_with_python_dependence.py", line 8, in get_version
+    import sklearn
+ModuleNotFoundError: No module named 'sklearn'
+[2022-11-22T15:03:41.323+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=python__dependences, task_id=task1, execution_date=20221122T150239, start_date=20221122T150341, end_date=20221122T150341
+[2022-11-22T15:03:41.333+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 21 for task task1 (No module named 'sklearn'; 54)
+[2022-11-22T15:03:41.379+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-22T15:03:41.406+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

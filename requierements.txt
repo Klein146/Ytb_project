@@ -4,7 +4,4 @@ numpy
 pandas
 matplotlib
 yellowbrick
-category_encoders
-jupyter
-pyspark
-apache-spark
+postgres

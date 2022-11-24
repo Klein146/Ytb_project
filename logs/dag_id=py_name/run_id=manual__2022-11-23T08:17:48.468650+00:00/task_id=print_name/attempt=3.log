@@ -1,0 +1,30 @@
+[2022-11-23T08:24:56.146+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: py_name.print_name manual__2022-11-23T08:17:48.468650+00:00 [queued]>
+[2022-11-23T08:24:56.158+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: py_name.print_name manual__2022-11-23T08:17:48.468650+00:00 [queued]>
+[2022-11-23T08:24:56.160+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-23T08:24:56.161+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 3
+[2022-11-23T08:24:56.162+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-23T08:24:56.173+0000] {taskinstance.py:1383} INFO - Executing <Task(PythonOperator): print_name> on 2022-11-23 08:17:48.468650+00:00
+[2022-11-23T08:24:56.180+0000] {standard_task_runner.py:55} INFO - Started process 51 to run task
+[2022-11-23T08:24:56.184+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'py_name', 'print_name', 'manual__2022-11-23T08:17:48.468650+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/dag_with_Connection.py', '--cfg-path', '/tmp/tmp4n_ocszr']
+[2022-11-23T08:24:56.186+0000] {standard_task_runner.py:83} INFO - Job 71: Subtask print_name
+[2022-11-23T08:24:56.259+0000] {task_command.py:376} INFO - Running <TaskInstance: py_name.print_name manual__2022-11-23T08:17:48.468650+00:00 [running]> on host 10ff3b602703
+[2022-11-23T08:24:56.340+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=klein
+AIRFLOW_CTX_DAG_ID=py_name
+AIRFLOW_CTX_TASK_ID=print_name
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-23T08:17:48.468650+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-23T08:17:48.468650+00:00
+[2022-11-23T08:24:56.345+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 193, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+TypeError: print_name_settings() takes 1 positional argument but 5 were given
+[2022-11-23T08:24:56.356+0000] {taskinstance.py:1406} INFO - Marking task as FAILED. dag_id=py_name, task_id=print_name, execution_date=20221123T081748, start_date=20221123T082456, end_date=20221123T082456
+[2022-11-23T08:24:56.371+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 71 for task print_name (print_name_settings() takes 1 positional argument but 5 were given; 51)
+[2022-11-23T08:24:56.437+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-23T08:24:56.464+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
