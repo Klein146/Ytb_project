@@ -25,9 +25,10 @@ with DAG(
     selection = PostgresOperator(
         task_id="select_data",
         postgres_conn_id="DB_ytb",
-        sql="""
+        sql=
+        """
         SELECT * FROM COMMENTS
-        WHERE textDisplay LIKE '%Merci%';
+        WHERE textDisplay LIKE '%Merci%' OR textDisplay LIKE '%merci%';
         """
     )
 
