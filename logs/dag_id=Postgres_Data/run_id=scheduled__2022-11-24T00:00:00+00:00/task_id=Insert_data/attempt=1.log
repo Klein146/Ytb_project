@@ -1,0 +1,32 @@
+[2022-11-25T09:19:19.815+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: Postgres_Data.Insert_data scheduled__2022-11-24T00:00:00+00:00 [queued]>
+[2022-11-25T09:19:19.838+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: Postgres_Data.Insert_data scheduled__2022-11-24T00:00:00+00:00 [queued]>
+[2022-11-25T09:19:19.840+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25T09:19:19.842+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-25T09:19:19.844+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-25T09:19:19.876+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): Insert_data> on 2022-11-24 00:00:00+00:00
+[2022-11-25T09:19:19.896+0000] {standard_task_runner.py:55} INFO - Started process 54 to run task
+[2022-11-25T09:19:19.907+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'Postgres_Data', 'Insert_data', 'scheduled__2022-11-24T00:00:00+00:00', '--job-id', '44', '--raw', '--subdir', 'DAGS_FOLDER/ConnectionTable.py', '--cfg-path', '/tmp/tmpsmcvihx0']
+[2022-11-25T09:19:19.909+0000] {standard_task_runner.py:83} INFO - Job 44: Subtask Insert_data
+[2022-11-25T09:19:19.982+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.7/site-packages/***/configuration.py:545: DeprecationWarning: The sql_alchemy_conn option in [core] has been moved to the sql_alchemy_conn option in [database] - the old setting has been used, but please update your config.
+  option = self._get_environment_variables(deprecated_key, deprecated_section, key, section)
+
+[2022-11-25T09:19:20.117+0000] {task_command.py:376} INFO - Running <TaskInstance: Postgres_Data.Insert_data scheduled__2022-11-24T00:00:00+00:00 [running]> on host 89ee96b17a7e
+[2022-11-25T09:19:20.292+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=klein
+AIRFLOW_CTX_DAG_ID=Postgres_Data
+AIRFLOW_CTX_TASK_ID=Insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-24T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-11-24T00:00:00+00:00
+[2022-11-25T09:19:20.312+0000] {base.py:71} INFO - Using connection ID 'DB_ytb' for task execution.
+[2022-11-25T09:19:20.354+0000] {sql.py:315} INFO - Running statement: CREATE TABLE IF NOT EXISTS COMMENTS (
+    authorDisplayName VARCHAR NOT NULL,
+    textDisplay VARCHAR NOT NULL
+);, parameters: None
+[2022-11-25T09:19:20.367+0000] {postgres.py:96} INFO - NOTICE:  relation "comments" already exists, skipping
+
+[2022-11-25T09:19:20.385+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=Postgres_Data, task_id=Insert_data, execution_date=20221124T000000, start_date=20221125T091919, end_date=20221125T091920
+[2022-11-25T09:19:20.438+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-25T09:19:20.470+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

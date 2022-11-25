@@ -1,0 +1,29 @@
+[2022-11-24T15:23:43.320+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: postgres_operators.create_table manual__2022-11-24T15:21:38.844524+00:00 [queued]>
+[2022-11-24T15:23:43.330+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: postgres_operators.create_table manual__2022-11-24T15:21:38.844524+00:00 [queued]>
+[2022-11-24T15:23:43.331+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T15:23:43.333+0000] {taskinstance.py:1363} INFO - Starting attempt 3 of 3
+[2022-11-24T15:23:43.334+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T15:23:43.345+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_table> on 2022-11-24 15:21:38.844524+00:00
+[2022-11-24T15:23:43.352+0000] {standard_task_runner.py:55} INFO - Started process 71 to run task
+[2022-11-24T15:23:43.355+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'postgres_operators', 'create_table', 'manual__2022-11-24T15:21:38.844524+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/DBconnection.py', '--cfg-path', '/tmp/tmpizvh9llf']
+[2022-11-24T15:23:43.357+0000] {standard_task_runner.py:83} INFO - Job 10: Subtask create_table
+[2022-11-24T15:23:43.424+0000] {task_command.py:376} INFO - Running <TaskInstance: postgres_operators.create_table manual__2022-11-24T15:21:38.844524+00:00 [running]> on host 89ee96b17a7e
+[2022-11-24T15:23:43.486+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=klein
+AIRFLOW_CTX_DAG_ID=postgres_operators
+AIRFLOW_CTX_TASK_ID=create_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-24T15:21:38.844524+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-24T15:21:38.844524+00:00
+[2022-11-24T15:23:43.496+0000] {base.py:71} INFO - Using connection ID 'DB_localhost' for task execution.
+[2022-11-24T15:23:43.516+0000] {sql.py:315} INFO - Running statement: CREATE TABLE IF NOT EXISTS pet (
+    pet_id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    pet_type VARCHAR NOT NULL,
+    birth_date DATE NOT NULL,
+    OWNER VARCHAR NOT NULL);, parameters: None
+[2022-11-24T15:23:43.550+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=postgres_operators, task_id=create_table, execution_date=20221124T152138, start_date=20221124T152343, end_date=20221124T152343
+[2022-11-24T15:23:43.604+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-24T15:23:43.625+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

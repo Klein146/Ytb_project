@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS COMMENTS (
+    authorDisplayName VARCHAR NOT NULL,
+    textDisplay VARCHAR NOT NULL
+);

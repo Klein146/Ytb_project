@@ -1,0 +1,29 @@
+[2022-11-24T16:39:48.123+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: Postgres_Data.Insert_data manual__2022-11-24T16:39:46.001502+00:00 [queued]>
+[2022-11-24T16:39:48.132+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: Postgres_Data.Insert_data manual__2022-11-24T16:39:46.001502+00:00 [queued]>
+[2022-11-24T16:39:48.133+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T16:39:48.134+0000] {taskinstance.py:1363} INFO - Starting attempt 1 of 3
+[2022-11-24T16:39:48.135+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T16:39:48.147+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): Insert_data> on 2022-11-24 16:39:46.001502+00:00
+[2022-11-24T16:39:48.153+0000] {standard_task_runner.py:55} INFO - Started process 111 to run task
+[2022-11-24T16:39:48.157+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'Postgres_Data', 'Insert_data', 'manual__2022-11-24T16:39:46.001502+00:00', '--job-id', '30', '--raw', '--subdir', 'DAGS_FOLDER/ConnectionTable.py', '--cfg-path', '/tmp/tmpv6k6z9fo']
+[2022-11-24T16:39:48.159+0000] {standard_task_runner.py:83} INFO - Job 30: Subtask Insert_data
+[2022-11-24T16:39:48.217+0000] {task_command.py:376} INFO - Running <TaskInstance: Postgres_Data.Insert_data manual__2022-11-24T16:39:46.001502+00:00 [running]> on host 89ee96b17a7e
+[2022-11-24T16:39:48.285+0000] {taskinstance.py:1592} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=klein
+AIRFLOW_CTX_DAG_ID=Postgres_Data
+AIRFLOW_CTX_TASK_ID=Insert_data
+AIRFLOW_CTX_EXECUTION_DATE=2022-11-24T16:39:46.001502+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-11-24T16:39:46.001502+00:00
+[2022-11-24T16:39:48.300+0000] {base.py:71} INFO - Using connection ID 'DB_ytb' for task execution.
+[2022-11-24T16:39:48.317+0000] {sql.py:315} INFO - Running statement: CREATE TABLE IF NOT EXISTS COMMENTS (
+    authorDisplayName VARCHAR NOT NULL,
+    textDisplay VARCHAR NOT NULL
+);, parameters: None
+[2022-11-24T16:39:48.323+0000] {postgres.py:96} INFO - NOTICE:  relation "comments" already exists, skipping
+
+[2022-11-24T16:39:48.339+0000] {taskinstance.py:1406} INFO - Marking task as SUCCESS. dag_id=Postgres_Data, task_id=Insert_data, execution_date=20221124T163946, start_date=20221124T163948, end_date=20221124T163948
+[2022-11-24T16:39:48.369+0000] {local_task_job.py:164} INFO - Task exited with return code 0
+[2022-11-24T16:39:48.392+0000] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check

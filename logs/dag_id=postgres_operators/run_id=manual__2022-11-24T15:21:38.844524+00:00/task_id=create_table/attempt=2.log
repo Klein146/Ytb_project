@@ -1,0 +1,56 @@
+[2022-11-24T15:22:41.966+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: postgres_operators.create_table manual__2022-11-24T15:21:38.844524+00:00 [queued]>
+[2022-11-24T15:22:41.977+0000] {taskinstance.py:1165} INFO - Dependencies all met for <TaskInstance: postgres_operators.create_table manual__2022-11-24T15:21:38.844524+00:00 [queued]>
+[2022-11-24T15:22:41.979+0000] {taskinstance.py:1362} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T15:22:41.980+0000] {taskinstance.py:1363} INFO - Starting attempt 2 of 3
+[2022-11-24T15:22:41.981+0000] {taskinstance.py:1364} INFO - 
+--------------------------------------------------------------------------------
+[2022-11-24T15:22:41.994+0000] {taskinstance.py:1383} INFO - Executing <Task(PostgresOperator): create_table> on 2022-11-24 15:21:38.844524+00:00
+[2022-11-24T15:22:42.001+0000] {standard_task_runner.py:55} INFO - Started process 69 to run task
+[2022-11-24T15:22:42.006+0000] {standard_task_runner.py:82} INFO - Running: ['***', 'tasks', 'run', 'postgres_operators', 'create_table', 'manual__2022-11-24T15:21:38.844524+00:00', '--job-id', '9', '--raw', '--subdir', 'DAGS_FOLDER/DBconnection.py', '--cfg-path', '/tmp/tmpfdfasg6_']
+[2022-11-24T15:22:42.008+0000] {standard_task_runner.py:83} INFO - Job 9: Subtask create_table
+[2022-11-24T15:22:42.072+0000] {task_command.py:376} INFO - Running <TaskInstance: postgres_operators.create_table manual__2022-11-24T15:21:38.844524+00:00 [running]> on host 89ee96b17a7e
+[2022-11-24T15:22:42.100+0000] {abstractoperator.py:421} ERROR - Exception rendering Jinja template for task 'create_table', field 'sql'. Template: './SQL/Create.sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 414, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 468, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ./SQL/Create.sql
+[2022-11-24T15:22:42.103+0000] {taskinstance.py:1851} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1457, in _run_raw_task
+    self._execute_task_with_callbacks(context, test_mode)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1576, in _execute_task_with_callbacks
+    task_orig = self.render_templates(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 2199, in render_templates
+    original_task.render_template_fields(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/baseoperator.py", line 1193, in render_template_fields
+    self._do_render_template_fields(self, self.template_fields, context, jinja_env, set())
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 75, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 414, in _do_render_template_fields
+    seen_oids,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 468, in render_template
+    template = jinja_env.get_template(value)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 1010, in get_template
+    return self._load_template(name, globals)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/environment.py", line 969, in _load_template
+    template = self.loader.load(self, name, self.make_globals(globals))
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 126, in load
+    source, filename, uptodate = self.get_source(environment, name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ./SQL/Create.sql
+[2022-11-24T15:22:42.114+0000] {taskinstance.py:1406} INFO - Marking task as UP_FOR_RETRY. dag_id=postgres_operators, task_id=create_table, execution_date=20221124T152138, start_date=20221124T152241, end_date=20221124T152242
+[2022-11-24T15:22:42.128+0000] {standard_task_runner.py:105} ERROR - Failed to execute job 9 for task create_table (./SQL/Create.sql; 69)
+[2022-11-24T15:22:42.139+0000] {local_task_job.py:164} INFO - Task exited with return code 1
+[2022-11-24T15:22:42.159+0000] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,574 @@
+[2022-11-25T09:19:06.598+0000] {processor.py:154} INFO - Started process (PID=34) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:19:06.618+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:19:06.621+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:19:06.620+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:19:07.156+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:19:07.330+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:19:07.329+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:19:07.518+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:19:07.517+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:19:07.651+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 1.059 seconds
+[2022-11-25T09:19:38.143+0000] {processor.py:154} INFO - Started process (PID=38) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:19:38.145+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:19:38.147+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:19:38.147+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:19:38.227+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:19:38.278+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:19:38.278+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:19:38.324+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:19:38.324+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:19:38.346+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.207 seconds
+[2022-11-25T09:20:08.691+0000] {processor.py:154} INFO - Started process (PID=40) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:20:08.695+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:20:08.699+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:20:08.698+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:20:08.854+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:20:08.916+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:20:08.916+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:20:08.955+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:20:08.955+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:20:08.978+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.303 seconds
+[2022-11-25T09:20:39.355+0000] {processor.py:154} INFO - Started process (PID=43) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:20:39.359+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:20:39.363+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:20:39.362+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:20:39.479+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:20:39.546+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:20:39.545+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:20:39.583+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:20:39.583+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:20:39.603+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.255 seconds
+[2022-11-25T09:21:09.976+0000] {processor.py:154} INFO - Started process (PID=46) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:21:09.981+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:21:09.984+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:21:09.984+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:21:10.116+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:21:10.181+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:21:10.181+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:21:10.217+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:21:10.217+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:21:10.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.271 seconds
+[2022-11-25T09:21:41.141+0000] {processor.py:154} INFO - Started process (PID=49) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:21:41.144+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:21:41.147+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:21:41.147+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:21:41.276+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:21:41.357+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:21:41.356+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:21:41.400+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:21:41.399+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:21:41.425+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.296 seconds
+[2022-11-25T09:22:11.826+0000] {processor.py:154} INFO - Started process (PID=52) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:22:11.829+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:22:11.832+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:22:11.831+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:22:11.966+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:22:12.096+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:22:12.096+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:22:12.141+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:22:12.141+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:22:12.169+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.350 seconds
+[2022-11-25T09:22:42.627+0000] {processor.py:154} INFO - Started process (PID=55) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:22:42.632+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:22:42.639+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:22:42.638+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:22:42.805+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:22:42.870+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:22:42.870+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:22:42.904+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:22:42.904+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:22:42.928+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.313 seconds
+[2022-11-25T09:23:13.298+0000] {processor.py:154} INFO - Started process (PID=58) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:23:13.303+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:23:13.305+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:23:13.305+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:23:13.406+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:23:13.458+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:23:13.458+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:23:13.493+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:23:13.493+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:23:13.516+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.223 seconds
+[2022-11-25T09:23:43.856+0000] {processor.py:154} INFO - Started process (PID=61) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:23:43.860+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:23:43.862+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:23:43.862+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:23:43.957+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:23:44.009+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:23:44.008+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:23:44.036+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:23:44.036+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:23:44.060+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.210 seconds
+[2022-11-25T09:24:14.454+0000] {processor.py:154} INFO - Started process (PID=64) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:24:14.459+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:24:14.462+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:24:14.462+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:24:14.602+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:24:14.671+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:24:14.670+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:24:14.721+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:24:14.720+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:24:14.748+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.299 seconds
+[2022-11-25T09:24:45.138+0000] {processor.py:154} INFO - Started process (PID=67) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:24:45.143+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:24:45.146+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:24:45.146+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:24:45.270+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:24:45.346+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:24:45.346+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:24:45.390+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:24:45.390+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:24:45.425+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.294 seconds
+[2022-11-25T09:25:15.808+0000] {processor.py:154} INFO - Started process (PID=70) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:25:15.812+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:25:15.817+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:25:15.816+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:25:15.949+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:25:16.013+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:25:16.013+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:25:16.046+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:25:16.046+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:25:16.068+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.267 seconds
+[2022-11-25T09:25:46.511+0000] {processor.py:154} INFO - Started process (PID=73) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:25:46.514+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:25:46.516+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:25:46.516+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:25:46.627+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:25:46.700+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:25:46.700+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:25:46.730+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:25:46.730+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:25:46.748+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.244 seconds
+[2022-11-25T09:26:17.186+0000] {processor.py:154} INFO - Started process (PID=76) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:26:17.190+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:26:17.193+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:26:17.193+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:26:17.317+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:26:17.368+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:26:17.367+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:26:17.397+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:26:17.397+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:26:17.417+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.236 seconds
+[2022-11-25T09:26:47.828+0000] {processor.py:154} INFO - Started process (PID=79) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:26:47.832+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:26:47.834+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:26:47.834+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:26:47.947+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:26:48.017+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:26:48.017+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:26:48.054+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:26:48.054+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:26:48.076+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.257 seconds
+[2022-11-25T09:27:18.505+0000] {processor.py:154} INFO - Started process (PID=82) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:27:18.509+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:27:18.511+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:27:18.510+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:27:18.618+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:27:18.685+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:27:18.685+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:27:18.727+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:27:18.727+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:27:18.747+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.250 seconds
+[2022-11-25T09:27:49.226+0000] {processor.py:154} INFO - Started process (PID=85) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:27:49.230+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:27:49.233+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:27:49.232+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:27:49.387+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:27:49.483+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:27:49.483+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:27:49.525+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:27:49.524+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:27:49.563+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.350 seconds
+[2022-11-25T09:28:19.962+0000] {processor.py:154} INFO - Started process (PID=88) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:28:19.967+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:28:19.970+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:28:19.970+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:28:20.099+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:28:20.166+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:28:20.165+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:28:20.200+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:28:20.200+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:28:20.230+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.282 seconds
+[2022-11-25T09:28:50.629+0000] {processor.py:154} INFO - Started process (PID=91) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:28:50.632+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:28:50.634+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:28:50.634+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:28:50.761+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:28:50.834+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:28:50.833+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:28:50.874+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:28:50.873+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:28:50.894+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.272 seconds
+[2022-11-25T09:29:21.411+0000] {processor.py:154} INFO - Started process (PID=94) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:21.414+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:29:21.416+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:21.416+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:21.550+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:21.623+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:21.623+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:29:21.662+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:21.661+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:29:21.688+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.288 seconds
+[2022-11-25T09:29:23.952+0000] {processor.py:154} INFO - Started process (PID=97) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:23.959+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:29:23.964+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:23.964+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:24.112+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:24.269+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:24.265+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:29:24.318+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:24.317+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:29:24.358+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.418 seconds
+[2022-11-25T09:29:54.505+0000] {processor.py:154} INFO - Started process (PID=100) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:54.508+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:29:54.511+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:54.510+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:54.586+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:29:54.623+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:54.623+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:29:54.647+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:29:54.647+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:29:54.664+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.163 seconds
+[2022-11-25T09:30:25.379+0000] {processor.py:154} INFO - Started process (PID=103) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:30:25.382+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:30:25.383+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:30:25.383+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:30:25.448+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:30:25.482+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:30:25.482+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:30:25.503+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:30:25.503+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:30:25.521+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.145 seconds
+[2022-11-25T09:30:56.071+0000] {processor.py:154} INFO - Started process (PID=106) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:30:56.074+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:30:56.076+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:30:56.075+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:30:56.145+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:30:56.179+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:30:56.179+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:30:56.202+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:30:56.202+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:30:56.218+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.152 seconds
+[2022-11-25T09:31:26.706+0000] {processor.py:154} INFO - Started process (PID=109) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:31:26.709+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:31:26.710+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:31:26.710+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:31:26.814+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:31:26.867+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:31:26.867+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:31:26.897+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:31:26.897+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:31:26.914+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.213 seconds
+[2022-11-25T09:31:42.089+0000] {processor.py:154} INFO - Started process (PID=110) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:31:42.102+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:31:42.112+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:31:42.111+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:31:42.413+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:31:42.684+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:31:42.683+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:31:42.749+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:31:42.749+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:31:42.814+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.745 seconds
+[2022-11-25T09:32:13.549+0000] {processor.py:154} INFO - Started process (PID=113) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:32:13.552+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:32:13.555+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:32:13.554+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:32:13.664+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:32:13.730+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:32:13.730+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:32:13.764+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:32:13.764+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:32:13.782+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.238 seconds
+[2022-11-25T09:32:44.516+0000] {processor.py:154} INFO - Started process (PID=116) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:32:44.521+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:32:44.524+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:32:44.523+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:32:44.649+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:32:44.716+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:32:44.716+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:32:44.748+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:32:44.748+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:32:44.771+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.261 seconds
+[2022-11-25T09:33:15.172+0000] {processor.py:154} INFO - Started process (PID=119) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:33:15.175+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:33:15.177+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:33:15.177+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:33:15.269+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:33:15.317+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:33:15.317+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:33:15.346+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:33:15.346+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:33:15.363+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.195 seconds
+[2022-11-25T09:33:45.682+0000] {processor.py:154} INFO - Started process (PID=122) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:33:45.685+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:33:45.687+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:33:45.687+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:33:45.752+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:33:45.791+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:33:45.791+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:33:45.816+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:33:45.816+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:33:45.835+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.156 seconds
+[2022-11-25T09:34:16.413+0000] {processor.py:154} INFO - Started process (PID=125) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:34:16.416+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:34:16.420+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:34:16.419+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:34:16.491+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:34:16.526+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:34:16.526+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:34:16.550+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:34:16.550+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:34:16.565+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.158 seconds
+[2022-11-25T09:34:38.911+0000] {processor.py:154} INFO - Started process (PID=128) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:34:38.915+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:34:38.918+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:34:38.917+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:34:39.077+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:34:39.239+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:34:39.239+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:34:39.273+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:34:39.273+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:34:39.313+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.411 seconds
+[2022-11-25T09:35:09.422+0000] {processor.py:154} INFO - Started process (PID=131) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:35:09.425+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:35:09.427+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:35:09.427+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:35:09.502+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:35:09.538+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:35:09.537+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:35:09.561+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:35:09.561+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:35:09.576+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.156 seconds
+[2022-11-25T09:35:39.975+0000] {processor.py:154} INFO - Started process (PID=134) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:35:39.977+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:35:39.979+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:35:39.979+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:35:40.041+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:35:40.074+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:35:40.073+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:35:40.096+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:35:40.095+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:35:40.111+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.139 seconds
+[2022-11-25T09:36:10.562+0000] {processor.py:154} INFO - Started process (PID=137) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:36:10.565+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:36:10.568+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:36:10.568+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:36:10.655+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:36:10.690+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:36:10.690+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:36:10.715+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:36:10.715+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:36:10.734+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.176 seconds
+[2022-11-25T09:36:41.063+0000] {processor.py:154} INFO - Started process (PID=140) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:36:41.067+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:36:41.069+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:36:41.069+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:36:41.140+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:36:41.177+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:36:41.177+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:36:41.207+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:36:41.207+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:36:41.224+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.166 seconds
+[2022-11-25T09:37:11.756+0000] {processor.py:154} INFO - Started process (PID=143) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:11.759+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:37:11.761+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:11.761+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:11.937+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:12.026+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:12.026+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:37:12.075+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:12.075+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:37:12.105+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.356 seconds
+[2022-11-25T09:37:17.908+0000] {processor.py:154} INFO - Started process (PID=144) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:17.913+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:37:17.915+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:17.915+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:18.089+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:18.210+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:18.210+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:37:18.246+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:18.246+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:37:18.269+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.369 seconds
+[2022-11-25T09:37:48.873+0000] {processor.py:154} INFO - Started process (PID=147) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:48.878+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:37:48.880+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:48.880+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:48.993+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:37:49.039+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:49.038+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:37:49.067+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:37:49.067+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:37:49.085+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.218 seconds
+[2022-11-25T09:38:04.872+0000] {processor.py:154} INFO - Started process (PID=150) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:38:04.880+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:38:04.888+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:38:04.888+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:38:05.305+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:38:05.660+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:38:05.658+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:38:05.724+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:38:05.724+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:38:05.775+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.918 seconds
+[2022-11-25T09:38:34.287+0000] {processor.py:154} INFO - Started process (PID=151) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:38:34.297+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:38:34.301+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:38:34.300+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:38:34.573+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:38:34.662+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:38:34.661+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:38:34.709+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:38:34.709+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:38:34.744+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.478 seconds
+[2022-11-25T09:39:05.108+0000] {processor.py:154} INFO - Started process (PID=154) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:39:05.113+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:39:05.115+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:39:05.115+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:39:05.239+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:39:05.425+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:39:05.425+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:39:05.462+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:39:05.462+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:39:05.499+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.400 seconds
+[2022-11-25T09:39:36.002+0000] {processor.py:154} INFO - Started process (PID=157) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:39:36.006+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:39:36.008+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:39:36.008+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:39:36.112+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:39:36.175+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:39:36.175+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:39:36.212+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:39:36.212+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:39:36.234+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.241 seconds
+[2022-11-25T09:40:06.723+0000] {processor.py:154} INFO - Started process (PID=160) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:40:06.726+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:40:06.729+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:40:06.728+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:40:06.835+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:40:06.891+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:40:06.890+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:40:06.925+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:40:06.925+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:40:06.947+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.234 seconds
+[2022-11-25T09:40:37.355+0000] {processor.py:154} INFO - Started process (PID=163) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:40:37.358+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:40:37.360+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:40:37.360+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:40:37.467+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:40:37.532+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:40:37.532+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:40:37.571+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:40:37.570+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:40:37.604+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.255 seconds
+[2022-11-25T09:41:08.029+0000] {processor.py:154} INFO - Started process (PID=166) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:08.033+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:41:08.036+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:08.036+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:08.165+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:08.239+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:08.239+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:41:08.274+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:08.273+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:41:08.299+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.281 seconds
+[2022-11-25T09:41:24.599+0000] {processor.py:154} INFO - Started process (PID=169) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:24.603+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:41:24.608+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:24.608+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:24.752+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:24.858+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:24.858+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:41:24.890+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:24.889+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:41:24.911+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.324 seconds
+[2022-11-25T09:41:55.114+0000] {processor.py:154} INFO - Started process (PID=172) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:55.117+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:41:55.119+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:55.119+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:55.210+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:41:55.262+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:55.262+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:41:55.291+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:41:55.291+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:41:55.308+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.199 seconds
+[2022-11-25T09:42:25.746+0000] {processor.py:154} INFO - Started process (PID=175) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:42:25.750+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:42:25.752+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:42:25.752+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:42:25.870+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:42:25.928+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:42:25.928+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:42:25.957+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:42:25.956+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:42:25.975+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.235 seconds
+[2022-11-25T09:42:56.398+0000] {processor.py:154} INFO - Started process (PID=178) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:42:56.401+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:42:56.403+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:42:56.403+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:42:56.511+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:42:56.583+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:42:56.583+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:42:56.610+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:42:56.610+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:42:56.629+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.235 seconds
+[2022-11-25T09:43:26.947+0000] {processor.py:154} INFO - Started process (PID=181) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:43:26.950+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:43:26.952+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:43:26.952+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:43:27.050+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:43:27.095+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:43:27.095+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:43:27.125+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:43:27.124+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:43:27.142+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.200 seconds
+[2022-11-25T09:43:57.436+0000] {processor.py:154} INFO - Started process (PID=184) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:43:57.439+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:43:57.440+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:43:57.440+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:43:57.526+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:43:57.574+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:43:57.574+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:43:57.619+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:43:57.619+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:43:57.647+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.216 seconds
+[2022-11-25T09:44:28.339+0000] {processor.py:154} INFO - Started process (PID=187) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:44:28.342+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:44:28.344+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:44:28.343+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:44:28.459+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:44:28.533+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:44:28.533+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:44:28.580+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:44:28.580+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:44:28.602+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.272 seconds
+[2022-11-25T09:44:30.408+0000] {processor.py:154} INFO - Started process (PID=188) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:44:30.411+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:44:30.419+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:44:30.419+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:44:30.682+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:44:30.799+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:44:30.799+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:44:30.829+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:44:30.828+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:44:30.863+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.462 seconds
+[2022-11-25T09:45:01.317+0000] {processor.py:154} INFO - Started process (PID=191) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:45:01.320+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:45:01.323+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:45:01.322+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:45:01.435+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:45:01.494+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:45:01.494+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:45:01.527+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:45:01.527+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:45:01.546+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.233 seconds
+[2022-11-25T09:45:32.124+0000] {processor.py:154} INFO - Started process (PID=194) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:45:32.127+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:45:32.129+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:45:32.129+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:45:32.229+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:45:32.291+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:45:32.291+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:45:32.320+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:45:32.319+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:45:32.346+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.226 seconds
+[2022-11-25T09:46:02.682+0000] {processor.py:154} INFO - Started process (PID=197) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:46:02.685+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:46:02.687+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:46:02.687+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:46:02.789+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:46:02.845+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:46:02.845+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:46:02.876+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:46:02.876+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:46:02.897+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.221 seconds
+[2022-11-25T09:46:33.448+0000] {processor.py:154} INFO - Started process (PID=200) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:46:33.452+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:46:33.454+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:46:33.453+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:46:33.567+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:46:33.632+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:46:33.631+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:46:33.660+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:46:33.660+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:46:33.680+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.237 seconds
+[2022-11-25T09:47:03.977+0000] {processor.py:154} INFO - Started process (PID=203) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:47:03.980+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:47:03.982+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:47:03.982+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:47:04.111+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:47:04.208+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:47:04.208+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:47:04.234+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:47:04.233+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:47:04.255+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.283 seconds
+[2022-11-25T09:47:34.645+0000] {processor.py:154} INFO - Started process (PID=206) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:47:34.648+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:47:34.650+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:47:34.650+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:47:34.761+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:47:34.818+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:47:34.817+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:47:34.850+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:47:34.850+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:47:34.869+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.228 seconds
+[2022-11-25T09:48:05.308+0000] {processor.py:154} INFO - Started process (PID=209) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:48:05.312+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:48:05.314+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:48:05.314+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:48:05.404+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:48:05.453+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:48:05.453+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:48:05.480+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:48:05.480+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:48:05.500+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.197 seconds
+[2022-11-25T09:48:35.705+0000] {processor.py:154} INFO - Started process (PID=212) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:48:35.708+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:48:35.710+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:48:35.710+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:48:35.810+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:48:35.870+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:48:35.870+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:48:35.897+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:48:35.897+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:48:35.919+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.219 seconds
+[2022-11-25T09:49:06.335+0000] {processor.py:154} INFO - Started process (PID=215) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:49:06.338+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:49:06.340+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:49:06.339+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:49:06.404+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:49:06.438+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:49:06.438+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:49:06.460+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:49:06.460+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:49:06.476+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.145 seconds
+[2022-11-25T09:49:37.083+0000] {processor.py:154} INFO - Started process (PID=218) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:49:37.085+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:49:37.089+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:49:37.088+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:49:37.212+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:49:37.280+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:49:37.280+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:49:37.314+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:49:37.314+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:49:37.334+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.256 seconds
+[2022-11-25T09:50:07.796+0000] {processor.py:154} INFO - Started process (PID=221) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:50:07.799+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:50:07.801+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:50:07.801+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:50:07.893+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:50:07.947+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:50:07.947+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:50:07.975+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:50:07.975+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:50:07.993+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.202 seconds
+[2022-11-25T09:50:38.410+0000] {processor.py:154} INFO - Started process (PID=224) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:50:38.412+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:50:38.414+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:50:38.414+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:50:38.526+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:50:38.584+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:50:38.584+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:50:38.619+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:50:38.618+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:50:38.644+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.239 seconds
+[2022-11-25T09:51:09.002+0000] {processor.py:154} INFO - Started process (PID=227) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:51:09.005+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:51:09.006+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:51:09.006+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:51:09.110+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:51:09.176+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:51:09.176+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:51:09.215+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:51:09.215+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:51:09.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.243 seconds
+[2022-11-25T09:51:39.550+0000] {processor.py:154} INFO - Started process (PID=230) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:51:39.553+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:51:39.556+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:51:39.556+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:51:39.673+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:51:39.728+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:51:39.728+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:51:39.765+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:51:39.765+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:51:39.784+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.239 seconds
+[2022-11-25T09:52:10.094+0000] {processor.py:154} INFO - Started process (PID=233) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:52:10.097+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:52:10.099+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:52:10.099+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:52:10.206+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:52:10.270+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:52:10.270+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:52:10.301+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:52:10.301+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:52:10.327+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.242 seconds
+[2022-11-25T09:52:40.762+0000] {processor.py:154} INFO - Started process (PID=236) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:52:40.765+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:52:40.768+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:52:40.768+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:52:40.880+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:52:40.945+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:52:40.945+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:52:40.982+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:52:40.982+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:52:41.006+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.250 seconds
+[2022-11-25T09:53:11.552+0000] {processor.py:154} INFO - Started process (PID=239) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:53:11.554+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:53:11.561+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:53:11.560+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:53:11.699+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:53:11.752+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:53:11.752+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:53:11.785+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:53:11.785+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:53:11.804+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.258 seconds
+[2022-11-25T09:53:42.258+0000] {processor.py:154} INFO - Started process (PID=240) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:53:42.261+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:53:42.263+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:53:42.262+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:53:42.373+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:53:42.433+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:53:42.433+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:53:42.466+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:53:42.466+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:53:42.493+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.241 seconds
+[2022-11-25T09:54:09.369+0000] {processor.py:154} INFO - Started process (PID=241) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:54:09.371+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:54:09.374+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:09.373+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:54:09.490+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:09.485+0000] {abstractoperator.py:175} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 173, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ./SQL/CreateDagTable.sql
+[2022-11-25T09:54:09.503+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:54:09.620+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:09.619+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:54:09.646+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:09.646+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:54:09.672+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.307 seconds
+[2022-11-25T09:54:40.067+0000] {processor.py:154} INFO - Started process (PID=242) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:54:40.074+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:54:40.077+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:40.077+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:54:40.209+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:40.207+0000] {abstractoperator.py:175} ERROR - Failed to resolve template field 'sql'
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/abstractoperator.py", line 173, in resolve_template_files
+    setattr(self, field, env.loader.get_source(env, content)[0])  # type: ignore
+  File "/home/airflow/.local/lib/python3.7/site-packages/jinja2/loaders.py", line 218, in get_source
+    raise TemplateNotFound(template)
+jinja2.exceptions.TemplateNotFound: ./SQL/CreateDagTable.sql
+[2022-11-25T09:54:40.250+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:54:40.417+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:40.417+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:54:40.479+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:54:40.479+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:54:40.534+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.472 seconds
+[2022-11-25T09:55:10.959+0000] {processor.py:154} INFO - Started process (PID=243) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:10.962+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:55:10.964+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:10.964+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:11.087+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:11.198+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:11.198+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:55:11.223+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:11.223+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:55:11.241+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.290 seconds
+[2022-11-25T09:55:17.062+0000] {processor.py:154} INFO - Started process (PID=244) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:17.065+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:55:17.067+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:17.067+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:17.209+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:17.253+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:17.253+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:55:17.289+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:17.289+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:55:17.325+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.268 seconds
+[2022-11-25T09:55:47.717+0000] {processor.py:154} INFO - Started process (PID=245) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:47.721+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:55:47.722+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:47.722+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:47.931+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:55:48.073+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:48.073+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:55:48.160+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:55:48.160+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:55:48.218+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.507 seconds
+[2022-11-25T09:56:18.596+0000] {processor.py:154} INFO - Started process (PID=246) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:56:18.599+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:56:18.601+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:18.600+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:56:18.719+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:56:18.796+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:18.796+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:56:18.835+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:18.835+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:56:18.855+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.264 seconds
+[2022-11-25T09:56:48.971+0000] {processor.py:154} INFO - Started process (PID=247) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:56:48.974+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:56:48.977+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:48.977+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:56:49.104+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:56:49.193+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:49.193+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:56:49.229+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:49.229+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:56:49.248+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.281 seconds
