@@ -27,8 +27,7 @@ with DAG(
         postgres_conn_id="DB_ytb",
         sql=
         """
-        SELECT * FROM COMMENTS
-        WHERE textDisplay LIKE '%Merci%' OR textDisplay LIKE '%merci%';
+        SELECT * FROM COMMENTS WHERE textDisplay LIKE '%Merci%' OR textDisplay LIKE '%merci%';
         """
     )
 
