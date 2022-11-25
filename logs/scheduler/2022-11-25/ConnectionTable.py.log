@@ -572,3 +572,17 @@ jinja2.exceptions.TemplateNotFound: ./SQL/CreateDagTable.sql
 [2022-11-25T09:56:49.193+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:49.193+0000] {dag.py:2585} INFO - Sync 1 DAGs
 [2022-11-25T09:56:49.229+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:56:49.229+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
 [2022-11-25T09:56:49.248+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.281 seconds
+[2022-11-25T09:57:19.554+0000] {processor.py:154} INFO - Started process (PID=248) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:57:19.557+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:57:19.558+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:57:19.558+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:57:19.670+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:57:19.741+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:57:19.741+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:57:19.777+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:57:19.777+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:57:19.797+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.248 seconds
+[2022-11-25T09:57:49.869+0000] {processor.py:154} INFO - Started process (PID=249) to work on /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:57:49.873+0000] {processor.py:756} INFO - Processing file /opt/airflow/dags/ConnectionTable.py for tasks to queue
+[2022-11-25T09:57:49.877+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:57:49.877+0000] {dagbag.py:537} INFO - Filling up the DagBag from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:57:49.990+0000] {processor.py:766} INFO - DAG(s) dict_keys(['Postgres_Data']) retrieved from /opt/airflow/dags/ConnectionTable.py
+[2022-11-25T09:57:50.065+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:57:50.064+0000] {dag.py:2585} INFO - Sync 1 DAGs
+[2022-11-25T09:57:50.106+0000] {logging_mixin.py:120} INFO - [2022-11-25T09:57:50.106+0000] {dag.py:3340} INFO - Setting next_dagrun for Postgres_Data to 2022-11-25T00:00:00+00:00, run_after=2022-11-26T00:00:00+00:00
+[2022-11-25T09:57:50.128+0000] {processor.py:176} INFO - Processing /opt/airflow/dags/ConnectionTable.py took 0.263 seconds
